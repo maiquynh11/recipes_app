@@ -59,8 +59,10 @@ Widget textRecipe() {
                       children: [
                         Icon(Icons.fastfood, color: colorIcon),
                         Container(
+                          // padding: EdgeInsets.only(bottom: 20.0),
+                          margin: EdgeInsets.only(left: 5.0),
                           child: Text(
-                            'dd',
+                            'Medium',
                             style: TextStyle(
                               color: colorTitle,
                               fontSize: 13.0,

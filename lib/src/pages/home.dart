@@ -34,6 +34,8 @@ class Home extends StatelessWidget {
                       height: 10.0,
                     ),
                     recipeList(),
+                    recipeList(),
+                    recipeList(),
                   ],
                 )
               ],
