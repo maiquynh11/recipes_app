@@ -35,3 +35,9 @@ final desciptionRecipeStyle = TextStyle(
   color: colorTitle,
   fontSize: 15.0,
 );
+final textMenu = TextStyle(
+  fontFamily: 'Overpass',
+  fontWeight: FontWeight.bold,
+  color: Colors.white,
+  fontSize: 20.0,
+);
