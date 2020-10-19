@@ -10,7 +10,7 @@ Widget recipeList() {
           image: AssetImage('assets/images/recipe1.jpg'),
           fit: BoxFit.cover,
           width: 370.0,
-          height: 200.0,
+          height: 150.0,
         ),
       ),
       textRecipe(),

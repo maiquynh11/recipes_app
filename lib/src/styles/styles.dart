@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 final colorBG = Color.fromRGBO(244, 252, 255, 1.0);
 final colorTitle = Color.fromRGBO(15, 55, 91, 1);
 final colorDesciptionRecipe = Color.fromRGBO(183, 195, 206, 1);
-final colorIcon = Color.fromRGBO(183, 195, 206, 1);
+final colorIcon = Color.fromRGBO(238, 173, 14, 1);
 
 final titleStyle = TextStyle(
   fontFamily: 'Overpass',

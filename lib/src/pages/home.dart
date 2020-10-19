@@ -30,6 +30,9 @@ class Home extends StatelessWidget {
                     title('DANH MUC'),
                     swiperCategories(),
                     title('PHO BIEN'),
+                    SizedBox(
+                      height: 10.0,
+                    ),
                     recipeList(),
                   ],
                 )

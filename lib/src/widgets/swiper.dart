@@ -7,8 +7,8 @@ class swiperPopular extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 230.0,
-      padding: EdgeInsets.only(bottom: 15.0),
+      height: 200.0,
+      padding: EdgeInsets.only(left: 20.0, right: 20.0, bottom: 15.0),
       child: Swiper(
         itemBuilder: (BuildContext context, int index) {
           return PageView(
@@ -31,7 +31,9 @@ Widget _card() {
   return Container(
     // margin: EdgeInsets.only(left: 10.0, right: 10.0),
     child: Image(
-      image: AssetImage('assets/images/recipe1.jpg'),
-    ),
+        image: AssetImage('assets/images/recipe1.jpg'),
+        width: 200.0,
+        height: 150,
+        fit: BoxFit.cover),
   );
 }

@@ -4,12 +4,13 @@ import 'package:flutter_swiper/flutter_swiper.dart';
 class swiperCategories extends StatelessWidget {
   final controller = PageController(
     initialPage: 1,
-    viewportFraction: 0.3,
+    viewportFraction: 0.35,
   );
   @override
   Widget build(BuildContext context) {
     return Container(
       // width: 350.0,
+      padding: EdgeInsets.only(left: 20.0, right: 20.0),
       height: 100.0,
       child: Swiper(
         itemBuilder: (BuildContext context, int index) {
