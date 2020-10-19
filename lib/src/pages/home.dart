@@ -27,15 +27,15 @@ class Home extends StatelessWidget {
                 Column(
                   children: [
                     swiperPopular(),
-                    title('DANH MUC'),
+                    titles('DANH MUC', titleStyle),
                     swiperCategories(),
-                    title('PHO BIEN'),
+                    titles('PHO BIEN', titleStyle),
                     SizedBox(
                       height: 10.0,
                     ),
-                    recipeList(),
-                    recipeList(),
-                    recipeList(),
+                    recipeList(context),
+                    recipeList(context),
+                    recipeList(context),
                   ],
                 )
               ],

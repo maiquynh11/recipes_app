@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:recipes_app/src/styles/styles.dart';
 
-Widget textRecipe() {
+Widget textRecipe(TextStyle styles) {
   return Column(
     children: [
       Container(
@@ -16,7 +16,7 @@ Widget textRecipe() {
             Text(
               'Cơm nhà',
               textAlign: TextAlign.left,
-              style: titleRecipeStyle,
+              style: styles,
             ),
             Text(
               'Chay thanh đạm lại đủ năng lượng với tinh bột dồi dào từ bí đỏ và protein healthy từ đậu hũ. Mọi người có thể dùng đậu hũ trắng để giảm...',
