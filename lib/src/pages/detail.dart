@@ -19,7 +19,7 @@ class DetailPage extends StatelessWidget {
             delegate: SliverChildListDelegate(
               [
                 textRecipe(titleRecipeStyleDetail),
-                titles('Thành phần', titleStyle),
+                titles('Thành phần', titleRecipeStyleDetail),
                 SizedBox(
                   height: 10.0,
                 ),
@@ -27,7 +27,7 @@ class DetailPage extends StatelessWidget {
                 SizedBox(
                     // height: 20.0,
                     ),
-                titles('Chuẩn bị', titleStyle),
+                titles('Chuẩn bị', titleRecipeStyleDetail),
                 _textDesciption(desciption),
               ],
             ),

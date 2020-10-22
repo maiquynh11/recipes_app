@@ -1,0 +1,50 @@
+{
+    "recipePopular": [
+        {
+            "title": "Cơm nhà",
+            "desciption": "Viết factory constructor trong lớp Product , Product.fromMap dùng để chuyển đổi dữ liệu map trong đối tượng Product . Thông thường, tệp JSON sẽ được chuyển đổi bên trong đối tượng Dart Map và sau đó chuyển đổi",
+            "categories": "Cơm",
+            "duration": "45min",
+            "prepare": "Viết factory constructor trong lớp Product , Product.fromMap dùng để chuyển đổi dữ liệu map trong đối tượng Product . Thông thường, tệp JSON sẽ được chuyển đổi bên trong đối tượng Dart Map và sau đó chuyển đổi sang đối tượng liên qua ",
+            "ingredients": [
+                {
+                    "ingredient": "200 gr jskjf sfg ksdh sdjgf"
+                },
+                                {
+                    "ingredient": "300 gr jskjf sfg ksdh sdjgf"
+                },
+                                {
+                    "ingredient": "270 gr jskjf sfg ksdh sdjgf"
+                }
+            ]
+        },
+          {
+            "title": "Pizza",
+            "desciption": "Viết factory constructor trong lớp Product , Product.fromMap dùng để chuyển đổi dữ liệu map trong đối tượng Product . Thông thường, tệp JSON sẽ được chuyển đổi bên trong đối tượng Dart Map và sau đó chuyển đổi",
+            "categories": "Cơm",
+            "duration": "55min",
+            "prepare": "Viết factory constructor trong lớp Product , Product.fromMap dùng để chuyển đổi dữ liệu map trong đối tượng Product . Thông thường, tệp JSON sẽ được chuyển đổi bên trong đối tượng Dart Map và sau đó chuyển đổi sang đối tượng liên qua ",
+            "ingredients": [
+                {
+                    "ingredient": "200 gr jskjf sfg ksdh sdjgf"
+                },
+                                {
+                    "ingredient": "300 gr jskjf sfg ksdh sdjgf"
+                },
+                                {
+                    "ingredient": "270 gr jskjf sfg ksdh sdjgf"
+                }
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "name": "Ăn vặt",
+            "image": "assets/images/recipe1.jpg"
+        },
+        {
+            "name": "Đồ uống",
+            "image": "assets/images/recipe2.jpg"
+        }
+    ]
+}
